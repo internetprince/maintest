@@ -1,1 +1,87 @@
- 
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <link rel="stylesheet" href="styles.css" type="text/css" media="all">
+    <title>internet prince</title>
+     
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="bannerStyle">
+      <p>banner.</p>
+    </div>
+    <div class="content">
+      <div class="leftContent">
+        <div class="cloudBorder">
+         <div class="aboutBox">
+           <h3 class="textInfo">webmaster</h3>
+          <div class="aboutPicture">
+           <p>pic.</p>
+         </div>
+         <a href="https://www.imood.com/users/internetprince"><img src="https://moods.imood.com/display/uname-internetprince/fg-485158/bg-EFF7FA/trans-1/imood.gif" border="0"></a>
+          <p class="textInfo"> webmaster. <br> info. <br> info. <br> info.</p>
+         </div>
+        </div>
+        <div class="containButtonStyle">
+          <img class="buttonStyle" src="https://files.strawcdn.com/straw/zFlEUqEUtgAFAKJkpNNZ.gif">
+          <img class="buttonStyle" src="https://files.strawcdn.com/straw/UKBzIjMANNvdVlZWLrLl.gif">
+          <img class="buttonStyle" src="https://files.strawcdn.com/straw/FmPyRzsluFUbLtKvkxwA.gif">
+          <img class="buttonStyle" src="https://files.strawcdn.com/straw/FVuSBkGUQDXZTRZdPXck.png">
+          <img class="buttonStyle" src="https://files.strawcdn.com/straw/MQLwYceTzbZeutnQTNAI.gif">
+        </div>
+        <div class="cloudBorder">
+         <div class="featuredBox">
+           <p>featured.</p>
+         </div>
+        </div>
+      </div>
+      <div class="middleContent">
+        <div class="cloudBorder">
+         <div class="middleInfo">
+           <h2>welcome!</h2>
+           <p>this is my website. info info.</p>
+         </div>
+        </div>
+        <marquee class="containStampStyle" direction="left">
+          <p>stamp stamp stamp stamp stamp</p>
+        </marquee>
+        <div class="chatbox">
+        <iframe src="https://www3.cbox.ws/box/?boxid=3544930&boxtag=YyQcXr" width="400" height="300" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
+        </div>
+      </div>
+      <div class="rightContent">
+        <div class="cloudBorder">
+         <nav class="rightNavigation">
+           <h3 class="textMenu">navigaton</h3>
+           <details>
+             <summary>personal</summary>
+            <a href="./blog.html">blog</a>
+            <br> <a href="./about.html">about</a>
+            <br> media
+           </details>
+           <details>
+             <summary>site</summary>
+            sitemap
+            <br> <a href="./siteinfo.html">info</a>
+            <br> <a href="./siteresources.html">resources</a>
+           </details>
+           <details>
+             <summary>other</summary>
+            links
+           </details>
+         </nav>
+        </div>
+        <div class="cloudBorder">
+         <div class="rightUpdate">
+           <p>this is the update box.</p>
+         </div>
+         <div class="rightToDo">
+           <p>todolist</p>
+         </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
