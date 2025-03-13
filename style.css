@@ -82,6 +82,7 @@ body
   width: 100vw;
   text-align: center;
   position: static;
+  flex-wrap: wrap;
   background-color: transparent;
 }
 
