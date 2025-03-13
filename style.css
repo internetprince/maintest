@@ -1,87 +1,251 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    
-    <link rel="stylesheet" href="styles.css" type="text/css" media="all">
-    <title>internet prince</title>
-     
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <div class="bannerStyle">
-      <p>banner.</p>
-    </div>
-    <div class="content">
-      <div class="leftContent">
-        <div class="cloudBorder">
-         <div class="aboutBox">
-           <h3 class="textInfo">webmaster</h3>
-          <div class="aboutPicture">
-           <p>pic.</p>
-         </div>
-         <a href="https://www.imood.com/users/internetprince"><img src="https://moods.imood.com/display/uname-internetprince/fg-485158/bg-EFF7FA/trans-1/imood.gif" border="0"></a>
-          <p class="textInfo"> webmaster. <br> info. <br> info. <br> info.</p>
-         </div>
-        </div>
-        <div class="containButtonStyle">
-          <img class="buttonStyle" src="https://files.strawcdn.com/straw/zFlEUqEUtgAFAKJkpNNZ.gif">
-          <img class="buttonStyle" src="https://files.strawcdn.com/straw/UKBzIjMANNvdVlZWLrLl.gif">
-          <img class="buttonStyle" src="https://files.strawcdn.com/straw/FmPyRzsluFUbLtKvkxwA.gif">
-          <img class="buttonStyle" src="https://files.strawcdn.com/straw/FVuSBkGUQDXZTRZdPXck.png">
-          <img class="buttonStyle" src="https://files.strawcdn.com/straw/MQLwYceTzbZeutnQTNAI.gif">
-        </div>
-        <div class="cloudBorder">
-         <div class="featuredBox">
-           <p>featured.</p>
-         </div>
-        </div>
-      </div>
-      <div class="middleContent">
-        <div class="cloudBorder">
-         <div class="middleInfo">
-           <h2>welcome!</h2>
-           <p>this is my website. info info.</p>
-         </div>
-        </div>
-        <marquee class="containStampStyle" direction="left">
-          <p>stamp stamp stamp stamp stamp</p>
-        </marquee>
-        <div class="chatbox">
-        <iframe src="https://www3.cbox.ws/box/?boxid=3544930&boxtag=YyQcXr" width="400" height="300" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
-        </div>
-      </div>
-      <div class="rightContent">
-        <div class="cloudBorder">
-         <nav class="rightNavigation">
-           <h3 class="textMenu">navigaton</h3>
-           <details>
-             <summary>personal</summary>
-            <a href="./blog.html">blog</a>
-            <br> <a href="./about.html">about</a>
-            <br> media
-           </details>
-           <details>
-             <summary>site</summary>
-            sitemap
-            <br> <a href="./siteinfo.html">info</a>
-            <br> <a href="./siteresources.html">resources</a>
-           </details>
-           <details>
-             <summary>other</summary>
-            links
-           </details>
-         </nav>
-        </div>
-        <div class="cloudBorder">
-         <div class="rightUpdate">
-           <p>this is the update box.</p>
-         </div>
-         <div class="rightToDo">
-           <p>todolist</p>
-         </div>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
+/* colour refs
+#99CCFF (sky blue)
+#eff7fa (white blue)
+#eff3f8 (white steel blue)
+#F4F7FF (cloud box white)
+#6F8AB7 (medium blue gray)
+#33415C (med blue gray)
+#30638E (medium blue)
+#82929e (light blue gray)
+#74828c (light medium blue gray)
+
+*/
+
+/* img links
+bg cloud https://files.strawcdn.com/straw/kzECHHWqcxvnmCOxwdxX.gif
+bg http://theinspirationgallery.com/wallpaper/damask/images/wp_damask_187.gif
+banner https://files.strawcdn.com/straw/uMGvoTFQyevBPCbdCHxm.jpg
+art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
+(cloud border) https://files.strawcdn.com/straw/GSopLeHoZTFcNUlbaWAp.png
+(metal wave) https://files.strawcdn.com/straw/ORnymnhxeioNNTqrpmLS.png
+*/
+
+/* backgrounds
+(blue white sparkle) https://files.strawcdn.com/straw/IUjjQCDtoJJwSGPCDHQY.gif
+*/
+
+/* buttons
+(powered by testosterone) https://files.strawcdn.com/straw/zFlEUqEUtgAFAKJkpNNZ.gif
+(made with affection) https://files.strawcdn.com/straw/UKBzIjMANNvdVlZWLrLl.gif
+(proud of my son) https://files.strawcdn.com/straw/FmPyRzsluFUbLtKvkxwA.gif
+(jesus kissed men) https://files.strawcdn.com/straw/FVuSBkGUQDXZTRZdPXck.png
+(i dream in html) https://files.strawcdn.com/straw/MQLwYceTzbZeutnQTNAI.gif
+
+*/
+ 
+/* style */
+
+html
+{ background-image: url("https://files.strawcdn.com/straw/kzECHHWqcxvnmCOxwdxX.gif");
+  background-repeat: repeat, repeat;
+  background-color: #99CCFF;
+  color: white;
+  font-size: 1em;
+  font-family: "courier new", Monospace;
+}
+
+body 
+{ color: white;
+  font-size: 1em;
+  font-family: "courier new", Monospace;
+  margin: 0;
+}
+
+.bannerStyle
+{ background-image: url("https://files.strawcdn.com/straw/uMGvoTFQyevBPCbdCHxm.jpg");
+  background-size: cover;
+  background-color: navy;
+  background-clip: content-box;
+  box-sizing: border-box;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  position: static;
+  width: 900px;
+  height: 175px;
+  text-align: center;
+}
+
+.content
+{ box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  padding: 10px;
+  width: 900px;
+  text-align: center;
+  position: static;
+  flex-direction: row;
+  background-color: transparent;
+  column-gap: 8px;
+  border: 2px dotted black;
+}
+
+.leftContent
+{ box-sizing: border-box;
+  background-color: transparent;
+  color: #485158;
+  margin: auto;
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  }
+
+.aboutBox
+{ box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+  background-color: #F4F7FF;
+  width: 100%;
+}
+
+.aboutInfo 
+{ box-sizing: border-box;
+  background-color: #F4F7FF;
+  text-align: center;
+  margin: auto;
+}
+
+.aboutPicture
+{ box-sizing: border-box;
+  background-color: green;
+  margin: auto;
+  width: 125px;
+  height: 125px;
+}
+
+.featuredBox
+{ box-sizing: border-box;
+  background-color: gray;
+}
+
+.middleContent
+{ box-sizing: border-box;
+  background-color: transparent;
+  color: #485158;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex: 2 1 0;
+  flex-direction: column;
+}
+
+.middleInfo
+{ box-sizing: border-box;
+  background-color: #F4F7FF;
+  text-align: center;
+  margin: auto;
+  flex: 1 1 0;
+}
+
+h2.middleInfo
+{
+}
+
+.rightContent
+{ box-sizing: border-box;
+  background-color: transparent;
+  color: #485158;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.rightNavigation
+{ box-sizing: border-box;
+  background-color: #F4F7FF;
+  overflow: scroll;
+}
+
+.rightUpdate
+{ box-sizing: border-box;
+  text-align: center;
+  background-color: #F4F7FF;
+  border: 2px dotted red;
+  overflow: scroll;
+}
+
+.rightToDo
+{ box-sizing: border-box;
+  text-align: center;
+  background-color: #F4F7FF;
+  border: 2px dotted yellow;
+  overflow: scroll;
+}
+
+.chatbox
+{ background-color: teal;
+}
+
+.containButtonStyle
+{ box-sizing: border-box;
+  background-color: fuchsia;
+  flex-flow: row wrap;
+  border: 1px dotted white;
+  max-width:100%;
+  border-radius: 3px;
+}
+
+.containStampStyle
+{ box-sizing: border-box;
+  background-color: fuchsia;
+  background-image: url("");
+  background-repeat: repeat, repeat;
+  flex-direction: row;
+  border: 1px dotted black;
+  border-radius: 3px;
+}
+
+.buttonStyle
+{
+  width: 88px;
+  height: 31px;
+}
+
+.stampStyle
+{ width: 99px;
+  height: 57px;
+}
+
+p.textInfo
+{ margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h3.textInfo
+{ margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+p.textMenu
+{
+}
+
+h3.textMenu
+{ margin-top: 0px;
+  margin-bottom: 0px;
+  border-bottom: 2px solid #74828c;
+  background-color: #F4F7FF;
+}
+
+.cloudBorder
+{ box-sizing: border-box;
+  width: 100%;
+  background-color: transparent;
+  border: 8px solid white;
+  margin: auto;
+  border-image-repeat: round;
+  border-image-slice: 10 9 10 9;
+  border-image-width: 1;
+  border-left-width: 8px;
+  border-right-width: 8px;
+  border-top-width: 8px;
+  border-bottom-width:8px;
+  border-image-outset: 0;
+  border-image-source: url("https://files.strawcdn.com/straw/GSopLeHoZTFcNUlbaWAp.png");
+}
