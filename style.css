@@ -63,8 +63,7 @@ body
 }
 
 .bannerStyle
-{ background-image: url("https://files.strawcdn.com/straw/uMGvoTFQyevBPCbdCHxm.jpg");
-  background-size: cover;
+{ background-size: cover;
   background-color: navy;
   background-clip: content-box;
   box-sizing: border-box;
