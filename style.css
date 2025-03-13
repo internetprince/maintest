@@ -35,6 +35,17 @@ art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
  
 /* style */
 
+@media (orientation: landscape) {
+
+}
+ 
+
+
+@media (orientation: portrait) {
+
+}
+
+
 html
 { background-image: url("https://files.strawcdn.com/straw/kzECHHWqcxvnmCOxwdxX.gif");
   background-repeat: repeat, repeat;
