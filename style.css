@@ -79,7 +79,7 @@ body
   margin: auto;
   display: flex;
   padding: 10px;
-  width: 100%;
+  width: 100vw;
   text-align: center;
   position: static;
   flex-direction: row;
@@ -117,8 +117,6 @@ body
 { box-sizing: border-box;
   background-color: green;
   margin: auto;
-  width: 125px;
-  height: 125px;
 }
 
 .featuredBox
@@ -158,7 +156,6 @@ h2.middleInfo
   display: flex;
   flex: 1 1 0;
   flex-direction: column;
-  row-gap: 8px;
 }
 
 .rightNavigation
@@ -171,7 +168,6 @@ h2.middleInfo
 { box-sizing: border-box;
   text-align: center;
   background-color: #F4F7FF;
-  border: 2px dotted red;
   overflow: scroll;
 }
 
@@ -179,7 +175,6 @@ h2.middleInfo
 { box-sizing: border-box;
   text-align: center;
   background-color: #F4F7FF;
-  border: 2px dotted yellow;
   overflow: scroll;
 }
 
@@ -200,8 +195,6 @@ h2.middleInfo
   background-image: url("");
   background-repeat: repeat, repeat;
   flex-direction: row;
-  border: 1px dotted black;
-  border-radius: 3px;
 }
 
 .buttonStyle
