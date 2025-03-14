@@ -42,6 +42,10 @@ art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
 
 
 @media (orientation: portrait) {
+  
+  .content {
+    flex-direction: column;
+  }
 
 }
 
