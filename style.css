@@ -168,12 +168,17 @@ h2.middleInfo
   overflow: scroll;
 }
 
-.updateBox
-{ box-sizing: border-box;
+.updateBox {
+  box-sizing: border-box;
   text-align: center;
   background-color: #F4F7FF;
   overflow: scroll;
 }
+
+li.updateBox {
+  margin-top: 2em;
+}
+
 
 .todoBox
 { box-sizing: border-box;
