@@ -177,8 +177,8 @@ h2.middleInfo
   overflow: scroll;
 }
 
-li.updateBox {
-  margin-top: 2em;
+article.update {
+  contain: content;
 }
 
 
