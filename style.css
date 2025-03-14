@@ -53,6 +53,7 @@ art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
   
   .bannerStyle {
   position: sticky;
+  z-index: 2;
   }
 
 }
