@@ -149,7 +149,7 @@ h2.middleInfo
 {
 }
 
-.rightContent
+.miscContent
 { box-sizing: border-box;
   background-color: transparent;
   color: #485158;
@@ -163,14 +163,14 @@ h2.middleInfo
   overflow: scroll;
 }
 
-.rightUpdate
+.updateBox
 { box-sizing: border-box;
   text-align: center;
   background-color: #F4F7FF;
   overflow: scroll;
 }
 
-.rightToDo
+.todoBox
 { box-sizing: border-box;
   text-align: center;
   background-color: #F4F7FF;
