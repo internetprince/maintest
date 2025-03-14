@@ -46,6 +46,10 @@ art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
   .content {
     flex-direction: column;
   }
+  
+  .bannerStyle {
+  position: sticky;
+  }
 
 }
 
