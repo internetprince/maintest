@@ -186,7 +186,7 @@ h2.middleInfo
 
 .containStampStyle
 { box-sizing: border-box;
-  background-color: fuchsia;
+  background-color: blue;
   background-image: url("");
   background-repeat: repeat, repeat;
   flex-direction: row;
