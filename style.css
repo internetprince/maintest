@@ -18,6 +18,7 @@ banner https://files.strawcdn.com/straw/uMGvoTFQyevBPCbdCHxm.jpg
 art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
 (cloud border) https://files.strawcdn.com/straw/GSopLeHoZTFcNUlbaWAp.png
 (metal wave) https://files.strawcdn.com/straw/ORnymnhxeioNNTqrpmLS.png
+(bg) https://files.strawcdn.com/straw/IfVGunscnyXdghlDrHbm.gif
 */
 
 /* backgrounds
@@ -201,7 +202,7 @@ li.updateBox {
 .containStampStyle
 { box-sizing: border-box;
   background-color: blue;
-  background-image: url("");
+  background-image: url("https://files.strawcdn.com/straw/IfVGunscnyXdghlDrHbm.gif");
   background-repeat: repeat, repeat;
   flex-direction: row;
 }
