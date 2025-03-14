@@ -36,6 +36,10 @@ art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
 /* style */
 
 @media (orientation: landscape) {
+  
+  .content {
+    flex-direction: row;
+  }
 
 }
  
