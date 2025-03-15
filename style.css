@@ -75,11 +75,8 @@ body
   background-color: navy;
   background-clip: content-box;
   box-sizing: border-box;
-  display: flex;
-  position: static;
+  width: 100%;
   max-width: 100vw;
-  text-align: center;
-  justify-content: center;
   font-family: "Honk";
   grid-area: banner;
 }
