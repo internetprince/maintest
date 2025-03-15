@@ -95,6 +95,12 @@ body
 { color: #485158;
   grid-area: personal;
 }
+
+#navigationContent
+{ color: #485158;
+  grid-area: nav;
+}
+  
   
 .cloudContainer
 { box-sizing: border-box;
