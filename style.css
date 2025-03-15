@@ -171,6 +171,7 @@ body {
 .buttonStyle {
   width: 88px;
   height: 31px;
+  background-color: white;
 }
 
 .stampStyle { 
