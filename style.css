@@ -53,7 +53,7 @@ art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
     row-gap: 1em;
   }
   
-  #personalContainer img {
+  #profileImage {
     width: 75%;
     
   }
@@ -101,7 +101,7 @@ body {
   align-items: center;
 }
 
-#personalContainer img { 
+#profileImage { 
   aspect-ratio: 1/1;
   
 }
