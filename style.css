@@ -93,7 +93,7 @@ body {
   grid-area: personal;
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
 }
 
 #personalContainer img { 
