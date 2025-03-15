@@ -55,8 +55,8 @@ art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
 }
 
 
-html
-{ background-image: url("https://files.strawcdn.com/straw/kzECHHWqcxvnmCOxwdxX.gif");
+html { 
+  background-image: url("https://files.strawcdn.com/straw/kzECHHWqcxvnmCOxwdxX.gif");
   background-repeat: repeat, repeat;
   background-color: #99CCFF;
   color: white;
@@ -64,14 +64,14 @@ html
   font-family: "courier new", Monospace;
 }
 
-body 
-{ font-size: 1em;
+body { 
+  font-size: 1em;
   font-family: "courier new", Monospace;
   margin: 0;
 }
 
-#siteBanner
-{ background-size: cover;
+#siteBanner { 
+  background-size: cover;
   background-color: navy;
   background-clip: content-box;
   box-sizing: border-box;
@@ -81,77 +81,77 @@ body
   grid-area: banner;
 }
 
-.content
-{ box-sizing: border-box;
+.content { 
+  box-sizing: border-box;
   display: grid;
   width: 100%;
   background-color: transparent;
 }
 
-#personalContainer
-{ color: #485158;
+#personalContainer { 
+  color: #485158;
   grid-area: personal;
 }
 
-#personalContent
-{
+#personalContent {
+  display: flex;
+  background-color: transparent;
   
 }
 
-#personalContent img
-{ aspect-ratio: 1/1;
+#personalContent img { 
+  aspect-ratio: 1/1;
   
 }
 
-#navigationContainer
-{ color: #485158;
+#navigationContainer { 
+  color: #485158;
   grid-area: nav;
 }
   
   
-.cloudContainer
-{ box-sizing: border-box;
+.cloudContainer { 
+  box-sizing: border-box;
   border: 2px dotted black;
   background-color: white;
 }
 
-.aboutBox
-{ box-sizing: border-box;
+.aboutBox { 
+  box-sizing: border-box;
   margin: auto;
   text-align: center;
   background-color: #F4F7FF;
   max-width: 100%;
 }
 
-.aboutInfo 
-{ box-sizing: border-box;
+.aboutInfo { 
+  box-sizing: border-box;
   background-color: #F4F7FF;
   text-align: center;
   margin: auto;
 }
 
-.containButtonStyle
-{ box-sizing: border-box;
+.containButtonStyle { 
+  box-sizing: border-box;
   background-color: fuchsia;
   flex-flow: row wrap;
   max-width:100%;
 }
 
-.containStampStyle
-{ box-sizing: border-box;
+.containStampStyle { 
+  box-sizing: border-box;
   background-color: blue;
   background-image: url("https://files.strawcdn.com/straw/IfVGunscnyXdghlDrHbm.gif");
   background-repeat: repeat, repeat;
   flex-direction: row;
 }
 
-.buttonStyle
-{
+.buttonStyle {
   width: 88px;
   height: 31px;
 }
 
-.stampStyle
-{ width: 99px;
+.stampStyle { 
+  width: 99px;
   height: 57px;
 }
