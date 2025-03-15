@@ -154,34 +154,7 @@ h2.middleInfo
   margin: auto;
 }
 
-.rightNavigation
-{ box-sizing: border-box;
-  background-color: #F4F7FF;
-  overflow: scroll;
-}
 
-.updateBox {
-  box-sizing: border-box;
-  text-align: center;
-  background-color: #F4F7FF;
-  overflow: scroll;
-}
-
-article.update {
-  contain: content;
-}
-
-
-.todoBox
-{ box-sizing: border-box;
-  text-align: center;
-  background-color: #F4F7FF;
-  overflow: scroll;
-}
-
-.chatbox
-{ background-color: teal;
-}
 
 .containButtonStyle
 { box-sizing: border-box;
@@ -209,26 +182,6 @@ article.update {
   height: 57px;
 }
 
-p.textInfo
-{ margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-h3.textInfo
-{ margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-p.textMenu
-{
-}
-
-h3.textMenu
-{ margin-top: 0px;
-  margin-bottom: 0px;
-  border-bottom: 2px solid #74828c;
-  background-color: #F4F7FF;
-}
 
 .cloudContainer
 { box-sizing: border-box;
