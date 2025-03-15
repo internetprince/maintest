@@ -79,8 +79,7 @@ body
 
 .content
 { box-sizing: border-box;
-  margin: auto;
-  display: flex;
+  display: grid;
   width: 100vw;
   text-align: center;
   background-color: transparent;
