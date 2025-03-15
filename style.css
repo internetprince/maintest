@@ -38,24 +38,12 @@ art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
 
 @media (orientation: landscape) {
   
-  .content {
-    flex-direction: row;
-  }
 
 }
  
 
 
 @media (orientation: portrait) {
-  
-  .content {
-    flex-direction: column;
-  }
-  
-  .bannerStyle {
-  position: sticky;
-  z-index: 2;
-  }
 
 }
 
@@ -93,11 +81,8 @@ body
 { box-sizing: border-box;
   margin: auto;
   display: flex;
-  padding: 10px;
   width: 100vw;
   text-align: center;
-  position: static;
-  flex-wrap: wrap;
   background-color: transparent;
 }
 
