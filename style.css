@@ -93,6 +93,11 @@ body
   grid-area: personal;
 }
 
+#personalContent img
+{ aspect-ratio: 1/1;
+  
+}
+
 #navigationContent
 { color: #485158;
   grid-area: nav;
