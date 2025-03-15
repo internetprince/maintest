@@ -92,8 +92,6 @@ body
 #personalContent
 { color: #485158;
   margin: auto;
-  justify-content: center;
-  text-align: center;
   grid-area: personal;
   }
   
