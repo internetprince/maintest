@@ -88,17 +88,17 @@ body
   background-color: transparent;
 }
 
-#personalContent
+#personalContainer
 { color: #485158;
   grid-area: personal;
 }
 
-#personalContent img
+#personalContainer img
 { aspect-ratio: 1/1;
   
 }
 
-#navigationContent
+#navigationContainer
 { color: #485158;
   grid-area: nav;
 }
