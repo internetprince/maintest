@@ -91,10 +91,8 @@ body
   background-color: transparent;
 }
 
-.personalContent
-{ box-sizing: border-box;
-  background-color: transparent;
-  color: #485158;
+#personalContent
+{ color: #485158;
   margin: auto;
   justify-content: center;
   text-align: center;
