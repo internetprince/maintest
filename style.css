@@ -45,9 +45,9 @@ art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
 
 @media (orientation: portrait) {
   .content {
-    grid-template-areas:;
-    grid-template-rows:;
-    grid-template-columns:;
+    grid-template-areas: "personal";
+    grid-template-rows: min-content;
+    grid-template-columns: 1fr;
     column-gap: 1em;
     row-gap: 1em;
   {
@@ -95,6 +95,7 @@ body
   margin: auto;
   justify-content: center;
   text-align: center;
+  grid-area:personal;
   }
   
 .cloudContainer
