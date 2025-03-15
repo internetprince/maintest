@@ -94,7 +94,7 @@ body {
   display; flex;
 }
 
-#personalContent img { 
+#personalContainer img { 
   aspect-ratio: 1/1;
   
 }
