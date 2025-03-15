@@ -132,6 +132,7 @@ body {
   border-image-repeat: round round;
   border-image-source: url("https://files.strawcdn.com/straw/ngMlDktjcAsqDAnbNnAw.png");
   border-style: solid;
+  padding: 10px;
 }
 
 #bio {
