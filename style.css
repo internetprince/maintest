@@ -126,8 +126,12 @@ body {
   
 .cloudContainer { 
   box-sizing: border-box;
-  border: 2px dotted black;
-  background-color: white;
+  border-image-slice: 28% 28% 28% 28% fill;
+  border-image-width: 10px 10px 10px 10px;
+  border-image-outset: 0px;
+  border-image-repeat: round round;
+  border-image-source: url("");
+  border-style: solid;
 }
 
 #bio {
