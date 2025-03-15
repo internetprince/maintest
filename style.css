@@ -44,11 +44,13 @@ art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
 
 
 @media (orientation: portrait) {
-  grid-template-areas:;
-  grid-template-rows:;
-  grid-template-columns:;
-  column-gap: 1em;
-  row-gap: 1em;
+  .content {
+    grid-template-areas:;
+    grid-template-rows:;
+    grid-template-columns:;
+    column-gap: 1em;
+    row-gap: 1em;
+  {
 }
 
 
