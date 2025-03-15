@@ -46,9 +46,10 @@ art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
 @media (orientation: portrait) {
   .content {
     grid-template-areas:
-    "personal banner banner nav"
+    "banner banner banner banner"
     "personal welcome welcome nav";
-    grid-template-rows: min-content 1fr;
+    "personal welcome welcome nav";
+    grid-template-rows: 1fr min-content 1fr;
     grid-template-columns: min-content 1fr 1fr min-content;
     column-gap: 1em;
     row-gap: 1em;
