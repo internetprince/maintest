@@ -47,9 +47,10 @@ art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
   .content {
     grid-template-areas:
     "banner banner banner banner"
-    "personal welcome welcome nav";
-    "personal welcome welcome nav";
-    grid-template-rows: 1fr min-content 1fr;
+    "personal welcome welcome nav"
+    "personal welcome welcome nav"
+    "personal welcome welcome button";
+    grid-template-rows: 1fr min-content 1fr 1fr;
     grid-template-columns: min-content 1fr 1fr min-content;
     column-gap: 1em;
     row-gap: 1em;
@@ -116,6 +117,11 @@ body {
 #welcomeContainer { 
   color: #485158;
   grid-area: welcome;
+}
+
+#buttonContainer { 
+  color: #485158;
+  grid-area: button;
 }
   
 .cloudContainer { 
