@@ -111,6 +111,10 @@ body {
   grid-area: nav;
 }
   
+#welcomeContainer { 
+  color: #485158;
+  grid-area: welcome;
+}
   
 .cloudContainer { 
   box-sizing: border-box;
