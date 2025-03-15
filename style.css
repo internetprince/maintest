@@ -91,9 +91,8 @@ body
 
 #personalContent
 { color: #485158;
-  margin: auto;
   grid-area: personal;
-  }
+}
   
 .cloudContainer
 { box-sizing: border-box;
