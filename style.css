@@ -52,6 +52,11 @@ art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
     column-gap: 1em;
     row-gap: 1em;
   }
+  
+  #personalContainer img {
+    width: 75%;
+    
+  }
 }
 
 
