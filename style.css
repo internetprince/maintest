@@ -130,6 +130,10 @@ body {
   background-color: white;
 }
 
+#bio {
+  margin: 0;
+}
+
 .aboutBox { 
   box-sizing: border-box;
   margin: auto;
