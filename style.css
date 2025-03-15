@@ -52,8 +52,8 @@ art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
     "personal welcome welcome button";
     grid-template-rows: 1fr min-content 1fr 1fr;
     grid-template-columns: min-content 1fr 1fr min-content;
-    column-gap: .5em;
-    row-gap: .5em;
+    column-gap: .25rem;
+    row-gap: .25rem;
   }
   
   #profileImage {
