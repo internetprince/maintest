@@ -92,6 +92,7 @@ body {
   color: #485158;
   grid-area: personal;
   display; flex;
+  flex-direction: column;
 }
 
 #personalContainer img { 
