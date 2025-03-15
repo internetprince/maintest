@@ -45,7 +45,8 @@ art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
 
 @media (orientation: portrait) {
   .content {
-    grid-template-areas: "personal";
+    grid-template-areas:
+    "personal";
     grid-template-rows: min-content;
     grid-template-columns: 1fr;
     column-gap: 1em;
@@ -79,15 +80,12 @@ body
   width: 100vw;
   text-align: center;
   justify-content: center;
-  font-family:"Almendra SC";
 }
 
 .content
 { box-sizing: border-box;
   display: grid;
-  width: 100vw;
-  text-align: center;
-  background-color: transparent;
+  width: 100%;
 }
 
 #personalContent
@@ -128,47 +126,6 @@ body
   text-align: center;
   margin: auto;
 }
-
-.aboutPicture
-{ box-sizing: border-box;
-  background-color: green;
-  margin: auto;
-}
-
-.featuredBox
-{ box-sizing: border-box;
-  background-color: gray;
-}
-
-.mainContent
-{ box-sizing: border-box;
-  background-color: transparent;
-  color: #485158;
-  text-align: center;
-  margin: auto;
-  display: flex;
-}
-
-.middleInfo
-{ box-sizing: border-box;
-  background-color: #F4F7FF;
-  text-align: center;
-  margin: auto;
-}
-
-h2.middleInfo
-{
-}
-
-.miscContent
-{ box-sizing: border-box;
-  background-color: transparent;
-  color: #485158;
-  text-align: center;
-  margin: auto;
-}
-
-
 
 .containButtonStyle
 { box-sizing: border-box;
