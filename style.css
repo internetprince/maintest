@@ -112,16 +112,25 @@ body {
 #navigationContainer { 
   color: #485158;
   grid-area: nav;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
   
 #welcomeContainer { 
   color: #485158;
   grid-area: welcome;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #buttonContainer { 
   color: #485158;
   grid-area: button;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
   
 .cloudContainer { 
@@ -132,7 +141,7 @@ body {
   border-image-repeat: round round;
   border-image-source: url("https://files.strawcdn.com/straw/ngMlDktjcAsqDAnbNnAw.png");
   border-style: solid;
-  padding: 5px;
+  padding: 10px;
 }
 
 #bio {
