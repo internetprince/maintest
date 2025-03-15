@@ -86,6 +86,7 @@ body
 { box-sizing: border-box;
   display: grid;
   width: 100%;
+  background-color: transparent;
 }
 
 #personalContent
@@ -93,14 +94,14 @@ body
   margin: auto;
   justify-content: center;
   text-align: center;
-  grid-area:personal;
+  grid-area: personal;
   }
   
 .cloudContainer
 { box-sizing: border-box;
   background-color: #F4F7FF;
   background-origin: padding-box;
-  border: 8px solid white;
+  border: 8px solid transparent;
   margin: auto;
   border-image-repeat: round;
   border-image-slice: 10 9 10 9;
