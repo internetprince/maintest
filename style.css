@@ -93,7 +93,12 @@ body
   grid-area: personal;
 }
 
-#personalContainer img
+#personalContent
+{
+  
+}
+
+#personalContent img
 { aspect-ratio: 1/1;
   
 }
