@@ -91,12 +91,7 @@ body {
 #personalContainer { 
   color: #485158;
   grid-area: personal;
-}
-
-#personalContent {
-  display: flex;
-  background-color: transparent;
-  
+  display; flex;
 }
 
 #personalContent img { 
