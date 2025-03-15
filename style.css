@@ -64,8 +64,7 @@ html
 }
 
 body 
-{ color: white;
-  font-size: 1em;
+{ font-size: 1em;
   font-family: "courier new", Monospace;
   margin: 0;
 }
@@ -97,6 +96,22 @@ body
   justify-content: center;
   text-align: center;
   }
+  
+.cloudContainer
+{ box-sizing: border-box;
+  background-color: #F4F7FF;
+  border: 8px solid white;
+  margin: auto;
+  border-image-repeat: round;
+  border-image-slice: 10 9 10 9;
+  border-image-width: 1;
+  border-left-width: 8px;
+  border-right-width: 8px;
+  border-top-width: 8px;
+  border-bottom-width:8px;
+  border-image-outset: 0;
+  border-image-source: url("https://files.strawcdn.com/straw/GSopLeHoZTFcNUlbaWAp.png");
+}
 
 .aboutBox
 { box-sizing: border-box;
