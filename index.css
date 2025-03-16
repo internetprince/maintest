@@ -80,33 +80,3 @@
 #bio {
   margin: 0;
 }
-
-h2 {
-  font-family: "Margarine";
-}
-
-.containButtonStyle { 
-  box-sizing: border-box;
-  background-color: fuchsia;
-  flex-flow: row wrap;
-  max-width:100%;
-}
-
-.containStampStyle { 
-  box-sizing: border-box;
-  background-color: blue;
-  background-image: url("https://files.strawcdn.com/straw/IfVGunscnyXdghlDrHbm.gif");
-  background-repeat: repeat, repeat;
-  flex-direction: row;
-}
-
-.buttonStyle {
-  width: 88px;
-  height: 31px;
-  background-color: white;
-}
-
-.stampStyle { 
-  width: 99px;
-  height: 57px;
-}
