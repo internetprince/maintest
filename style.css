@@ -51,6 +51,11 @@ body {
   margin: 0;
 }
 
+h2 {
+  font-family: "Margarine";
+  
+}
+
 .content { 
   box-sizing: border-box;
   display: grid;
@@ -67,11 +72,6 @@ body {
   border-image-source: url("https://files.strawcdn.com/straw/ngMlDktjcAsqDAnbNnAw.png");
   border-style: solid;
   padding: 10px;
-}
-
-h2 {
-  font-family: "Margarine";
-  
 }
 
 .containButtonStyle { 
