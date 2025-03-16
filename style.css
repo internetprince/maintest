@@ -153,19 +153,9 @@ body {
   margin: 0;
 }
 
-.aboutBox { 
-  box-sizing: border-box;
-  margin: auto;
-  text-align: center;
-  background-color: #F4F7FF;
-  max-width: 100%;
-}
-
-.aboutInfo { 
-  box-sizing: border-box;
-  background-color: #F4F7FF;
-  text-align: center;
-  margin: auto;
+h2 {
+  font-family: "Margarine";
+  
 }
 
 .containButtonStyle { 
