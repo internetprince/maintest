@@ -90,7 +90,7 @@
   color: #485158;
   grid-area: button;
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   align-items: center;
   text-align: center;
 }
