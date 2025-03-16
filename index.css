@@ -1,1 +1,147 @@
+@media (orientation: landscape) {
+  
+
+}
  
+
+
+@media (orientation: portrait) {
+  .content {
+    grid-template-areas:
+    "banner banner banner"
+    "personal welcome nav"
+    "personal welcome nav"
+    "personal welcome button";
+    grid-template-rows: 1fr min-content 1fr 1fr;
+    grid-template-columns: min-content 1fr max-content;
+    column-gap: .25rem;
+    row-gap: .25rem;
+  }
+  
+  #profileImage {
+    width: 75%;
+    
+  }
+}
+
+
+html { 
+  background-image: url("https://files.strawcdn.com/straw/kzECHHWqcxvnmCOxwdxX.gif");
+  background-repeat: repeat, repeat;
+  background-color: #94C6DE;
+  color: white;
+  font-size: 1em;
+  font-family: "courier new", Monospace;
+}
+
+body { 
+  font-size: 1em;
+  font-family: "courier new", Monospace;
+  margin: 0;
+}
+
+#siteBanner { 
+  background-size: cover;
+  background-color: navy;
+  background-clip: content-box;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100vw;
+  font-family: "Honk";
+  grid-area: banner;
+  text-align: center;
+}
+
+.content { 
+  box-sizing: border-box;
+  display: grid;
+  width: 100%;
+  background-color: transparent;
+}
+
+#personalContainer { 
+  color: #485158;
+  grid-area: personal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#profileImage { 
+  aspect-ratio: 1/1;
+  
+}
+
+#navigationContainer { 
+  color: #485158;
+  grid-area: nav;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+  
+#welcomeContainer { 
+  color: #485158;
+  grid-area: welcome;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#buttonContainer { 
+  color: #485158;
+  grid-area: button;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+  
+.cloudContainer { 
+  box-sizing: border-box;
+  border-image-slice: 29% 30% 29% 30% fill;
+  border-image-width: 10px 10px 10px 10px;
+  border-image-outset: 1px 1px 1px 1px;
+  border-image-repeat: round round;
+  border-image-source: url("https://files.strawcdn.com/straw/ngMlDktjcAsqDAnbNnAw.png");
+  border-style: solid;
+  padding: 10px;
+}
+
+#bio {
+  margin: 0;
+}
+
+h2 {
+  font-family: "Margarine";
+  
+}
+
+.containButtonStyle { 
+  box-sizing: border-box;
+  background-color: fuchsia;
+  flex-flow: row wrap;
+  max-width:100%;
+}
+
+.containStampStyle { 
+  box-sizing: border-box;
+  background-color: blue;
+  background-image: url("https://files.strawcdn.com/straw/IfVGunscnyXdghlDrHbm.gif");
+  background-repeat: repeat, repeat;
+  flex-direction: row;
+}
+
+.buttonStyle {
+  width: 88px;
+  height: 31px;
+  background-color: white;
+}
+
+.stampStyle { 
+  width: 99px;
+  height: 57px;
+}
