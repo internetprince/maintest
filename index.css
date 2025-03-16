@@ -129,6 +129,7 @@
 
 blockquote.buttonCode {
   max-width: 90%;
-  border: 2px solid #4A67A4;
+  border: 2px double #4A67A4;
+  background-color: #DDE3E8;
   border-radius: 5px;
 }
