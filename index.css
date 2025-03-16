@@ -21,7 +21,14 @@
   
   #profileImage {
     width: 75%;
-    
+  }
+  
+  #personalContainer, #chatContainer, #stampContainer {
+    margin-left: .1rem;
+  }
+  
+  #navigationContainer, #buttonContainer {
+    margin-right: .1rem;
   }
 }
 
