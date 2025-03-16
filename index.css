@@ -128,14 +128,13 @@
 }
 
 #buttonCode {
+  max-width: 100%;
   box-sizing: border-box;
   border: 2px double #4A67A4;
   background-color: #DDE3E8;
   border-radius: 5px;
   font-family: monospace;
-  text-wrap: wrap;
   overflow: scroll;
   overflow-wrap: break-word;
   font-size: .5rem;
-  max-width: 8rem;
 }
