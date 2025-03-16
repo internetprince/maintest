@@ -71,10 +71,10 @@ h2 {
   border-image-repeat: round;
   border-image-source: url("https://files.strawcdn.com/straw/ngMlDktjcAsqDAnbNnAw.png");
   border-style: solid;
-  border-top-width: 20px;
-  border-left-width: 20px;
-  border-right-width: 20px;
-  border-bottom-width: 20px;
+  border-top-width: 8px;
+  border-left-width: 8px;
+  border-right-width: 8px;
+  border-bottom-width: 8px;
   padding: 10px;
 }
 
