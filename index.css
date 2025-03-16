@@ -134,7 +134,6 @@
   background-color: #DDE3E8;
   border-radius: 5px;
   font-family: monospace;
-  overflow: scroll;
   overflow-wrap: break-word;
   font-size: .5rem;
 }
