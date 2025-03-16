@@ -10,10 +10,10 @@
     grid-template-areas:
     "banner banner banner"
     "personal welcome nav"
-    "stamps stamps stamps"
     "personal welcome nav"
-    "chat welcome button";
-    grid-template-rows: min-content min-content min-content 1fr 1fr;
+    "stamps stamps button"
+    "chat chat button";
+    grid-template-rows: min-content min-content 1fr 1fr 1fr;
     grid-template-columns: min-content 1fr max-content;
     column-gap: .5rem;
     row-gap: .25rem;
