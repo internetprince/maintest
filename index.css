@@ -115,6 +115,8 @@
   align-items: center;
   text-align: center;
   font-family:"Schoolbell";
+  max-height: 70px;
+  overflow: scroll;
 }
 
 #mybuttonContainer p {
@@ -147,7 +149,7 @@
   background-repeat: repeat, repeat;
   flex-direction: row;
   grid-area: stamps;
-  max-height: 65px;
+  max-height: 70px;
 }
 
 #bio {
