@@ -87,6 +87,12 @@
   text-align: center;
 }
 
+#widget {
+  max-width: 100%;
+  grid-area: widget;
+  display: grid;
+}
+
 #mybuttonContainer { 
   color: #485158;
   grid-area: button;
