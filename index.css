@@ -32,13 +32,11 @@
     width: 75%;
   }
   
-  #personalContainer, #chatContainer, #stampContainer {
+  #personalContainer, #navigationContainer, #chatContainer, {
     margin-left: .1rem;
   }
   
-  #navigationContainer, #buttonContainer {
-    margin-right: .1rem;
-  }
+  #navigationContainer, #
   
   #cboxPortrait {
     display: block;
