@@ -121,6 +121,7 @@
 
 #mybuttonContainer p {
   margin: 0;
+  font-size: .9rem;
 }
 
 #chatContainer {
