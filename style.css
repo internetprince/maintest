@@ -65,8 +65,8 @@ h2 {
 
 .cloudContainer { 
   box-sizing: border-box;
-  border-image-slice: 8 fill;
-  border-image-width: 32px;
+  border-image-slice: 9.5 fill;
+  border-image-width: 10px;
   border-image-outset: 1px;
   border-image-repeat: round;
   border-image-source: url("https://files.strawcdn.com/straw/kjDHZMgeLBJZmkQswyiy.png");
