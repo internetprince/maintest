@@ -21,7 +21,7 @@
   #widget {
     grid-template-areas:
     "stamp stamp button"
-    "chat . button";
+    "chat . .";
     grid-template-rows: min-content min-content;
     grid-template-columns: min-content 1fr min-content;
     column-gap: .5rem;
