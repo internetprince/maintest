@@ -36,3 +36,8 @@
   align-items: center;
   text-align: center;
 }
+
+#templateSection {
+  display: flex;
+  flex-direction: row-wrap;
+}
