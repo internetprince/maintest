@@ -142,15 +142,3 @@
 #bio {
   margin: 0;
 }
-
-#buttonCode {
-  max-width: 90px;
-  box-sizing: border-box;
-  border: .5px solid #4A67A4;
-  background-color: #DDE3E8;
-  border-radius: 5px;
-  font-family: monospace;
-  overflow-y: scroll;
-  overflow-wrap: break-word;
-  font-size: .8rem;
-}
