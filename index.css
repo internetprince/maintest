@@ -138,6 +138,7 @@
   background-repeat: repeat, repeat;
   flex-direction: row;
   grid-area: stamps;
+  max-height: 65px;
 }
 
 #bio {
