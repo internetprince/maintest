@@ -11,7 +11,7 @@
     "banner banner banner"
     "personal stamps nav"
     "personal welcome nav"
-    "chat chat button";
+    "chat welcome button";
     grid-template-rows: min-content min-content 1fr 1fr;
     grid-template-columns: min-content 1fr max-content;
     column-gap: 1rem;
