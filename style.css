@@ -46,12 +46,12 @@ art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
 @media (orientation: portrait) {
   .content {
     grid-template-areas:
-    "banner banner banner banner"
-    "personal welcome welcome nav"
-    "personal welcome welcome nav"
-    "personal welcome welcome button";
+    "banner banner banner"
+    "personal welcome nav"
+    "personal welcome nav"
+    "personal welcome button";
     grid-template-rows: 1fr min-content 1fr 1fr;
-    grid-template-columns: min-content 1fr 1fr min-content;
+    grid-template-columns: min-content 1fr min-content;
     column-gap: .25rem;
     row-gap: .25rem;
   }
