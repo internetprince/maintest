@@ -11,7 +11,7 @@
     "banner banner banner"
     "personal welcome nav"
     "personal welcome nav"
-    "personal welcome button";
+    "chat welcome button";
     grid-template-rows: min-content min-content 1fr 1fr;
     grid-template-columns: min-content 1fr max-content;
     column-gap: .5rem;
@@ -75,6 +75,16 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+#chatContainer {
+  color: #485158;
+  grid-area: chat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
 }
 
 #bio {
