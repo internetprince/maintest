@@ -133,4 +133,5 @@
   background-color: #DDE3E8;
   border-radius: 5px;
   font-family: monospace;
+  text-wrap: wrap;
 }
