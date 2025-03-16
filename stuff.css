@@ -1,0 +1,102 @@
+@media (orientation: landscape) {
+  
+
+}
+ 
+
+
+@media (orientation: portrait) {
+  .content {
+    grid-template-areas:
+    "banner banner banner"
+    "personal welcome nav"
+    "personal welcome nav"
+    "stamps stamps button"
+    "chat chat button";
+    grid-template-rows: min-content min-content 1fr 1fr 1fr;
+    grid-template-columns: min-content 1fr max-content;
+    column-gap: .5rem;
+    row-gap: .25rem;
+  }
+  
+  #profileImage {
+    width: 75%;
+    
+  }
+}
+
+#siteBanner { 
+  background-size: cover;
+  background-color: navy;
+  background-clip: content-box;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100vw;
+  font-family: "Honk";
+  grid-area: banner;
+  text-align: center;
+}
+
+#personalContainer { 
+  color: #485158;
+  grid-area: personal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#profileImage { 
+  aspect-ratio: 1/1;
+  
+}
+
+#navigationContainer { 
+  color: #485158;
+  grid-area: nav;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+  
+#welcomeContainer { 
+  color: #485158;
+  grid-area: welcome;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#buttonContainer { 
+  color: #485158;
+  grid-area: button;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#chatContainer {
+  color: #485158;
+  grid-area: chat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+
+#stampContainer { 
+  box-sizing: border-box;
+  background-color: blue;
+  background-image: url("https://files.strawcdn.com/straw/IfVGunscnyXdghlDrHbm.gif");
+  background-repeat: repeat, repeat;
+  flex-direction: row;
+  grid-area: stamps;
+}
+
+#bio {
+  margin: 0;
+}
