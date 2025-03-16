@@ -25,6 +25,10 @@
   text-align: center;
 }
 
+#mainContainer {
+  
+}
+
 .stuffType {
   color: #485158;
   display: flex;
