@@ -117,6 +117,10 @@
   font-family:"Schoolbell";
 }
 
+#mybuttonContainer p {
+  margin: 0;
+}
+
 #chatContainer {
   color: #485158;
   grid-area: chat;
