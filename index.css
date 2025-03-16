@@ -135,4 +135,6 @@
   font-family: monospace;
   text-wrap: wrap;
   overflow-wrap: break-word;
+  font-size: .5rem;
+  max-width: 8rem;
 }
