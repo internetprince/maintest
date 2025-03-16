@@ -97,6 +97,7 @@
 }
 
 #widget {
+  width: 100%;
   max-width: 100%;
   grid-area: widget;
   display: grid;
