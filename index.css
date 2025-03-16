@@ -102,12 +102,12 @@
 }
 
 #cboxPortrait {
-  
+  display: none;
   
 }
 
 #cboxLandscape {
-  
+  display: none;
 }
 
 #stampContainer { 
