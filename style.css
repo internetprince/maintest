@@ -51,7 +51,7 @@ art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
     "personal welcome nav"
     "personal welcome button";
     grid-template-rows: 1fr min-content 1fr 1fr;
-    grid-template-columns: min-content 1fr min-content;
+    grid-template-columns: min-content 1fr max-content;
     column-gap: .25rem;
     row-gap: .25rem;
   }
