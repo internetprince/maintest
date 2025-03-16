@@ -25,3 +25,12 @@
   align-items: center;
   text-align: center;
 }
+
+#introContainer { 
+  color: #485158;
+  grid-area: self;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
