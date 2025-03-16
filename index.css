@@ -32,11 +32,11 @@
     width: 75%;
   }
   
-  #personalContainer, #navigationContainer, #chatContainer, {
+  #personalContainer, #navigationContainer, #chatContainer, #stampContainer {
     margin-left: .1rem;
   }
   
-  #welcomeContainer {
+  #welcomeContainer, #stampContainer {
     margin-right: .1rem;
   }
   
@@ -152,7 +152,6 @@
   flex-direction: row;
   grid-area: stamps;
   max-height: 70px;
-  width: 99%;
 }
 
 #bio {
