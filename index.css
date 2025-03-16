@@ -127,7 +127,7 @@
   margin: 0;
 }
 
-blockquote.buttonCode {
+#buttonCode {
   max-width: 90%;
   border: 2px double #4A67A4;
   background-color: #DDE3E8;
