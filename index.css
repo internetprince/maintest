@@ -30,6 +30,10 @@
   #navigationContainer, #buttonContainer {
     margin-right: .1rem;
   }
+  
+  #cboxPortrait {
+    display: block;
+  }
 }
 
 #siteBanner { 
