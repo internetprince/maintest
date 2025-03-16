@@ -132,4 +132,5 @@ blockquote.buttonCode {
   border: 2px double #4A67A4;
   background-color: #DDE3E8;
   border-radius: 5px;
+  font-family: monospace;
 }
