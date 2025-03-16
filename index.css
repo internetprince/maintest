@@ -20,7 +20,7 @@
   
   #widget {
     grid-template-areas:
-    "stamps stamps button"
+    "stamps stamps stamps"
     "chat . .";
     grid-template-rows: min-content min-content;
     grid-template-columns: min-content 1fr min-content;
