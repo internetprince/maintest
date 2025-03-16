@@ -9,7 +9,7 @@
   .content {
     grid-template-areas:
     "banner banner banner"
-    "personal welcome nav"
+    "personal stamps nav"
     "personal welcome nav"
     "chat chat button";
     grid-template-rows: min-content min-content 1fr 1fr;
@@ -85,6 +85,15 @@
   align-items: center;
   text-align: center;
   
+}
+
+#stampContainer { 
+  box-sizing: border-box;
+  background-color: blue;
+  background-image: url("https://files.strawcdn.com/straw/IfVGunscnyXdghlDrHbm.gif");
+  background-repeat: repeat, repeat;
+  flex-direction: row;
+  grid-area: stamps;
 }
 
 #bio {
