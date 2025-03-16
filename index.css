@@ -152,6 +152,7 @@
   flex-direction: row;
   grid-area: stamps;
   max-height: 70px;
+  width: 99%;
 }
 
 #bio {
