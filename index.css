@@ -51,6 +51,11 @@
   
 }
 
+#githubImage {
+  aspect-ratio: 1/1;
+  
+}
+
 #navigationContainer { 
   color: #485158;
   grid-area: nav;
