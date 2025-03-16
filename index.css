@@ -12,7 +12,7 @@
     "personal welcome nav"
     "button welcome nav"
     "stamps stamps stamps"
-    "chat chat chat";
+    ". chat chat";
     grid-template-rows: min-content min-content 1fr min-content 1fr;
     grid-template-columns: min-content 1fr min-content;
     column-gap: .5rem;
