@@ -85,6 +85,11 @@
   align-items: center;
   text-align: center;
 }
+
+#navigationContainer details {
+  
+  
+}
   
 #welcomeContainer { 
   color: #485158;
