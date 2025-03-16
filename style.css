@@ -140,7 +140,7 @@ body {
   
 .cloudContainer { 
   box-sizing: border-box;
-  border-image-slice: 30% 30% 30% 30% fill;
+  border-image-slice: 31% 30% 31% 30% fill;
   border-image-width: 10px 10px 10px 10px;
   border-image-outset: 0px;
   border-image-repeat: round round;
