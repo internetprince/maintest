@@ -55,7 +55,7 @@ body {
 
 h2 {
   font-family: "Margarine";
-  
+  margin: 0;
 }
 
 .content { 
