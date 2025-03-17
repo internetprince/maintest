@@ -45,6 +45,10 @@
   }
 }
 
+p {
+  background-color: #F2F2F3;
+}
+
 #siteBanner { 
   background-size: cover;
   background-color: navy;
