@@ -11,7 +11,7 @@
     "desc" 
     "main";
     grid-template-rows: 1fr 1fr;
-    grid-template-columns: min-content;
+    grid-template-columns: 1fr;
     column-gap: .5rem;
     row-gap: .25rem;
   }
