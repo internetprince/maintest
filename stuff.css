@@ -9,7 +9,7 @@
   .content {
     grid-template-areas:
     "desc";
-    grid-template-rows: min-content;
+    grid-template-rows: 1fr 1fr;
     grid-template-columns: min-content;
     column-gap: .5rem;
     row-gap: .25rem;
@@ -37,7 +37,9 @@ h4 {
 }
 
 #mainContainer {
-  
+  width: 100%;
+  max-width: 100%;
+  grid-area: main;
 }
 
 .stuffType {
