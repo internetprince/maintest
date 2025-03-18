@@ -41,6 +41,7 @@ h4 {
   width: 100%;
   max-width: 100%;
   grid-area: main;
+  text-align: center;
 }
 
 .stuffType {
