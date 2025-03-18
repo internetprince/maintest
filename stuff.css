@@ -60,7 +60,9 @@ h4 {
 
 }
 
-.templateLink
+.templateLink {
+  font-size: .6rem;
+}
 
 #decorSection {
   display: flex;
