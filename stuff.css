@@ -57,6 +57,9 @@ h4 {
 }
 
 .templateEntry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
 
