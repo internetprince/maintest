@@ -29,22 +29,26 @@ h4 {
 }
 
 #descContainer { 
+  box-sizing: border-box;
   color: #485158;
   grid-area: desc;
   display: flex;
+  max-width: 100vw;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
 #mainContainer {
+  box-sizing: border-box;
   width: 100%;
-  max-width: 100%;
+  max-width: 100vw;
   grid-area: main;
   text-align: center;
 }
 
 .stuffType {
+  box-sizing: border-box;
   color: #485158;
   display: flex;
   flex-direction: column;
@@ -53,11 +57,13 @@ h4 {
 }
 
 #templateSection {
+  box-sizing: border-box;
   display: flex;
   flex-direction: row-wrap;
 }
 
 .templateEntry {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,6 +75,7 @@ h4 {
 }
 
 #decorSection {
+  box-sizing: border-box;
   display: flex;
   flex-direction: row-wrap;
 }
