@@ -17,8 +17,8 @@
   }
 }
 
-
 #selfContainer { 
+  box-sizing: border-box;
   color: #485158;
   grid-area: self;
   display: flex;
@@ -27,7 +27,13 @@
   text-align: center;
 }
 
+#info {
+  box-sizing: border-box;
+  text-align: center;
+}
+
 #introContainer { 
+  box-sizing: border-box;
   color: #485158;
   grid-area: intro;
   display: flex;
@@ -37,6 +43,7 @@
 }
 
 #statusContainer { 
+  box-sizing: border-box;
   color: #485158;
   grid-area: status;
   display: flex;
