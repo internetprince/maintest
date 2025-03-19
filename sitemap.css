@@ -16,6 +16,12 @@
   }
 }
 
+html {
+      background-image: url("https://files.strawcdn.com/straw/IfVGunscnyXdghlDrHbm.gif");
+      background-repeat: repeat, repeat;
+      background-color: #94C6DE;
+}
+
 #introContainer { 
   box-sizing: border-box;
   color: #485158;
