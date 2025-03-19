@@ -181,3 +181,8 @@ p {
   align-items: center;
   text-align: center;
 }
+
+#todoContainer details {
+  text-align: left;
+  font-family: monospace;
+}
