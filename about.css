@@ -28,7 +28,7 @@
 
 #introContainer { 
   color: #485158;
-  grid-area: self;
+  grid-area: intro;
   display: flex;
   flex-direction: column;
   align-items: center;
