@@ -7,8 +7,8 @@
 
 @media (orientation: portrait) {
   .content {
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-left: 3px;
+    margin-right: 3px;
     grid-template-areas:
     "desc" 
     "main";
