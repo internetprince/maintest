@@ -9,8 +9,7 @@
   .content {
     grid-template-areas:
     "self intro"
-    "status intro"
-    "interact .";
+    "status intro";
     grid-template-rows: min-content;
     grid-template-columns: min-content 1fr;
     column-gap: .5rem;
