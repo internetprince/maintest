@@ -40,6 +40,11 @@
   text-align: center;
 }
 
+#selfText {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 #info {
   box-sizing: border-box;
   text-align: center;
