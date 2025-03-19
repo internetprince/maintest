@@ -33,11 +33,11 @@
   }
   
   #personalContainer, #navigationContainer, #chatContainer, #stampContainer {
-    margin-left: .1rem;
+    margin-left: 3px;
   }
   
   #welcomeContainer, #stampContainer {
-    margin-right: .1rem;
+    margin-right: 3px;
   }
   
   #cboxPortrait {
