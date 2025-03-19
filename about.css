@@ -42,7 +42,7 @@
 #selfText {
   box-sizing: border-box;
   margin: 0;
-  font-family:"Almendra";
+  font-family:"Almendra", serif;
 }
 
 #info {
