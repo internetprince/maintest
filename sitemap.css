@@ -8,7 +8,7 @@
 @media (orientation: portrait) {
   .content {
     grid-template-areas:
-    "self";
+    "";
     grid-template-rows: min-content;
     grid-template-columns: min-content;
     column-gap: .5rem;
@@ -16,17 +16,8 @@
   }
 }
 
-
-#selfContainer { 
-  color: #485158;
-  grid-area: self;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
 #introContainer { 
+  box-sizing: border-box;
   color: #485158;
   grid-area: self;
   display: flex;
