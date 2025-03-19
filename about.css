@@ -73,6 +73,12 @@
   text-align: center;
 }
 
+#extracontent {
+  box-sizing: border-box;
+  display: grid;
+  max-width: 100%;
+}
+
 #interactionContainer { 
   box-sizing: border-box;
   color: #485158;
