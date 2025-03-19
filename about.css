@@ -11,7 +11,7 @@
     "self intro"
     "status intro";
     grid-template-rows: min-content;
-    grid-template-columns: min-content 1fr;
+    grid-template-columns: max-content 1fr;
     column-gap: .5rem;
     row-gap: .25rem;
   }
