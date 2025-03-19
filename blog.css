@@ -8,7 +8,7 @@
 @media (orientation: portrait) {
   .content {
     grid-template-areas:
-    "self";
+    "";
     grid-template-rows: min-content;
     grid-template-columns: min-content;
     column-gap: .5rem;
