@@ -8,7 +8,8 @@
 @media (orientation: portrait) {
   .content {
     grid-template-areas:
-    "self intro";
+    "self intro"
+    "status intro";
     grid-template-rows: min-content;
     grid-template-columns: min-content 1fr;
     column-gap: .5rem;
@@ -29,6 +30,15 @@
 #introContainer { 
   color: #485158;
   grid-area: intro;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#statusContainer { 
+  color: #485158;
+  grid-area: status;
   display: flex;
   flex-direction: column;
   align-items: center;
