@@ -54,12 +54,14 @@ h4 {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  max-width: 100%;
 }
 
 #templateSection {
   box-sizing: border-box;
   display: flex;
   flex-flow: row wrap;
+  max-width: 100%;
 }
 
 .templateEntry {
