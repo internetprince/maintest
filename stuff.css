@@ -92,4 +92,12 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 50%;
+}
+
+.codeEntry {
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow: scroll;
+
 }
