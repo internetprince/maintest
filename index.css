@@ -182,7 +182,8 @@ p {
   text-align: center;
 }
 
-#todoContainer details {
+#todoList {
   text-align: left;
   font-family: monospace;
+  margin: 0;
 }
