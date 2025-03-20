@@ -1,5 +1,33 @@
 @media (orientation: landscape) {
+  .content {
+    grid-template-areas:
+    "banner banner banner"
+    "personal welcome nav"
+    "personal welcome nav"
+    "widget widget widget";
+    grid-template-rows: min-content min-content min-content min-content;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: .5rem;
+    row-gap: .25rem;
+  }
   
+  #widget {
+    grid-template-areas:
+    "stamps stamps todo"
+    "chat chat todo";
+    grid-template-rows: min-content min-content;
+    grid-template-columns: min-content 1fr min-content;
+    column-gap: .5rem;
+    row-gap: .25rem;
+  }
+  
+  #profileImage {
+    width: 75%;
+  }
+  
+  #cboxPortrait {
+    display: none;
+  }
 
 }
  
