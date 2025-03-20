@@ -87,6 +87,7 @@ p {
 
 #extracontent {
   box-sizing: border-box;
+  grid-area: extra;
   display: grid;
   max-width: 100%;
 }
