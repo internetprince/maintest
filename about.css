@@ -12,8 +12,8 @@
     padding-right: 3px;
     overflow: scroll;
     grid-template-areas:
-    "self intro"
-    "status intro";
+    "self intro intro"
+    "status intro intro";
     grid-template-rows: min-content;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: .5rem;
