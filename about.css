@@ -50,7 +50,6 @@
 #buttons {
   box-sizing: border-box;
   flex-flow: column nowrap;
-  max-width:100%;
 }
 
 #info {
