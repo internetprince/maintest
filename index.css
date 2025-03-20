@@ -192,3 +192,13 @@ p {
   font-family: monospace;
   margin: 0;
 }
+
+#updateContainer { 
+  box-sizing: border-box;
+  color: #485158;
+  grid-area: todo;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
