@@ -47,7 +47,9 @@
   font-size: .75rem;
 }
 
-#buttons
+#buttons {
+  
+}
 
 #info {
   box-sizing: border-box;
