@@ -29,6 +29,12 @@
   }
 }
 
+
+p {
+  background-color: #F2F2F3;
+  font-family: "Balsamiq Sans", sans-serif;
+}
+
 #selfContainer { 
   box-sizing: border-box;
   color: #485158;
