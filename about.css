@@ -7,6 +7,10 @@
 
 @media (orientation: portrait) {
   .content {
+    max-width: 100vw;
+    padding-left: 3px;
+    padding-right: 3px;
+    overflow: scroll;
     grid-template-areas:
     "self intro"
     "status intro";
@@ -17,15 +21,12 @@
   }
   
   #introContainer {
-    margin-right: 3px;
   }
   
   #selfContainer {
-    margin-left: 3px;
   }
   
   #statusContainer {
-    margin-left: 3px;
   }
 }
 
