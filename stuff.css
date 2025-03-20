@@ -8,6 +8,8 @@
 @media (orientation: portrait) {
   .content {
     max-width: 100vw;
+    padding-left: 3px;
+    padding-right: 3px;
     grid-template-areas:
     "desc" 
     "main";
