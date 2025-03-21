@@ -25,7 +25,7 @@
     padding-left: 3px;
     padding-right: 3px;
     grid-template-areas:
-    "";
+    "interact";
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
     column-gap: .5rem;
