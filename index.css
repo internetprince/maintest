@@ -27,6 +27,12 @@
   #cboxPortrait {
     display: none;
   }
+  
+  
+  #cboxLandscape {
+    display: block;
+    box-sizing: border-box;
+  }
 
 }
  
@@ -69,6 +75,12 @@
   
   #cboxPortrait {
     display: block;
+  }
+  
+  
+  #cboxLandscape {
+    display: none;
+    box-sizing: border-box;
   }
 }
 
