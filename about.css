@@ -31,6 +31,11 @@
     column-gap: .5rem;
     row-gap: .25rem;
   }
+  
+  #buttons {
+    max-height: 600px;
+    overflow: scroll;
+  }
 }
 
 
