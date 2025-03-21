@@ -77,7 +77,6 @@
     display: block;
   }
   
-  
   #cboxLandscape {
     display: none;
     box-sizing: border-box;
@@ -203,7 +202,7 @@ p {
 }
 
 #cboxLandscape {
-  display: none;
+  display: initial;
   box-sizing: border-box;
 }
 
