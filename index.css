@@ -179,6 +179,11 @@ p {
   
 }
 
+#chatTitle {
+  margin: 0;
+  font-size: 1.15em;
+}
+
 #cboxPortrait {
   display: initial;
   box-sizing: border-box;
