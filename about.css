@@ -1,5 +1,17 @@
 @media (orientation: landscape) {
-  
+  .content {
+    max-width: 100vw;
+    padding-left: 3px;
+    padding-right: 3px;
+    grid-template-areas:
+    "self self status"
+    "intro intro status"
+    "extra extra extra";
+    grid-template-rows: 1fr 1fr min-content;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: .5rem;
+    row-gap: .25rem;
+  }
 
 }
  
