@@ -30,7 +30,7 @@
   color: #485158;
   grid-area: blog;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
   text-align: center;
   row-gap: 2em;
