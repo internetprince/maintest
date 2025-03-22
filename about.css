@@ -82,6 +82,11 @@ p {
   font-size: .75rem;
 }
 
+#tallImage {
+  max-width: 80%;
+  margin: auto;
+}
+
 #buttons {
   box-sizing: border-box;
   flex-direction: column;
