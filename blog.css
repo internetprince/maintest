@@ -30,7 +30,7 @@
 
 .blogEntry {
   box-sizing: border-box;
-  border: 2px #AFB8BD;
+  border: 2px solid #AFB8BD;
   border-radius: 4px;
 }
 
