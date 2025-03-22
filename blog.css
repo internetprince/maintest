@@ -14,6 +14,10 @@
     column-gap: .5rem;
     row-gap: .25rem;
   }
+  
+  .blogEntry {
+    max-height: 75vh;
+  }
 }
 
 
