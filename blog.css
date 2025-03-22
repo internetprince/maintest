@@ -43,6 +43,10 @@
 
 .blogEntry section {
   padding: 2em;
+}
+
+.blogHeaders {
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,15 +54,15 @@
 }
 
 .entryHeading {
-  
+  order: 1;
 }
 
 .entrySubheading {
-  
+  order: 2;
 }
 
 .entryDate {
-  
+  order: 0;
 }
 
 #introContainer { 
