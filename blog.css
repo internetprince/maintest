@@ -36,6 +36,8 @@
   box-sizing: border-box;
   border: 2px solid #AFB8BD;
   border-radius: 4px;
+  max-height: 60vh;
+  overflow: scroll;
 }
 
 .blogEntry section {
