@@ -37,6 +37,7 @@
   border: 2px solid #AFB8BD;
   border-radius: 4px;
   max-height: 60vh;
+  width: 100%;
   overflow: scroll;
 }
 
