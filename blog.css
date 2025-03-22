@@ -34,6 +34,10 @@
   border-radius: 4px;
 }
 
+.blogEntry section {
+  padding: 2em;
+}
+
 .blogHeader {
   
 }
