@@ -30,7 +30,8 @@
 
 .blogEntry {
   box-sizing: border-box;
-  
+  border: 2px white;
+  border-radius: 4px;
 }
 
 .blogHeader {
