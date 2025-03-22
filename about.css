@@ -56,6 +56,11 @@
     max-height: 600px;
     overflow: scroll;
   }
+
+  #tallImage {
+    max-width: 80%;
+    margin: auto;
+  }
 }
 
 
@@ -80,11 +85,6 @@ p {
   color: #7BBCED;
   font-family:"Almendra", serif;
   font-size: .75rem;
-}
-
-#tallImage {
-  max-width: 80%;
-  margin: auto;
 }
 
 #buttons {
