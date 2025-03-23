@@ -77,6 +77,10 @@ p {
   font-family: "Balsamiq Sans", sans-serif;
 }
 
+h3 {
+  font-family: "Delius Unicase", sans-serif;
+}
+
 #selfContainer { 
   box-sizing: border-box;
   color: #485158;
