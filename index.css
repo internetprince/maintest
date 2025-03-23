@@ -230,8 +230,31 @@ p {
   display: flex;
 }
 
+#scrollContainer img {
+  animation: var(--direction) var(--marquee-speed) linear infinite;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll-right {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
 .scrollStamp {
-  display: flex;
 }
 
 #bio {
