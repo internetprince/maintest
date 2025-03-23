@@ -37,6 +37,10 @@ code {
   
 }
 
+blockquote {
+  margin: 0;
+}
+
 #descContainer { 
   box-sizing: border-box;
   color: #485158;
