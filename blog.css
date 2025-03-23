@@ -67,6 +67,7 @@
 
 .entryDate {
   order: 0;
+  font-family:"Schoolbell", monospace;
 }
 
 #introContainer { 
