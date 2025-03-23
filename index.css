@@ -240,11 +240,11 @@ p {
 
 @keyframes scroll-left {
     0% {
-        transform: translateX(0%);
+        transform: translateX(500%);
     }
 
     100% {
-        transform: translateX(-200%);
+        transform: translateX(-500%);
     }
 }
 
