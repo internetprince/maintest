@@ -234,7 +234,7 @@ p {
 }
 
 #scrollContainer img {
-  animation: 20s linear scroll-left infinite;
+  animation: 20s linear infinite scroll-left;
 }
 
 @keyframes scroll-left {
