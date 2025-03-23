@@ -257,7 +257,8 @@ p {
     }
 }
 
-.scrollStamp {
+.stampStyle {
+  margin-right: 1rem;
 }
 
 #bio {
