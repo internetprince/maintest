@@ -228,6 +228,8 @@ p {
 
 #scrollContainer {
   display: flex;
+  --marquee-speed: 20s;
+  --direction: scroll-left;
 }
 
 #scrollContainer img {
