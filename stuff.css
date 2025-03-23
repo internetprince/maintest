@@ -106,5 +106,6 @@ h4 {
   box-sizing: border-box;
   display: flex;
   flex-flow: row wrap;
+  column-gap: 1em;
   max-width: 100%;
 }
