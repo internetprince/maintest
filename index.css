@@ -229,12 +229,12 @@ p {
 #scrollContainer {
   display: flex;
   animation-name: scroll-left;
-  animation-duration: auto;
+  animation-duration: 5s;
   animation-direction: normal;
 }
 
 #scrollContainer img {
-  animation: auto linear infinite normal both scroll-left;
+  animation: 5s linear infinite normal both scroll-left;
 }
 
 @keyframes scroll-left {
