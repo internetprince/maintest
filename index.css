@@ -223,6 +223,11 @@ p {
   align-items: center;
   grid-area: stamps;
   max-height: 70px;
+  overflow: hidden;
+}
+
+#scrollContainer {
+  display: flex;
 }
 
 .scrollStamp {
