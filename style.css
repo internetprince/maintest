@@ -82,6 +82,9 @@ h2 {
   padding: 5px;
 }
 
+.cloudContainer p {
+}
+
 .containButtonStyle { 
   box-sizing: border-box;
   background-color: fuchsia;
