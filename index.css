@@ -218,6 +218,7 @@ p {
   background-color: blue;
   background-image: url("https://files.strawcdn.com/straw/aaPpIDynqwfqOKzXObsa.jpeg");
   background-repeat: repeat, repeat;
+  display: flex;
   flex-direction: row;
   align-items: center;
   grid-area: stamps;
@@ -225,7 +226,7 @@ p {
 }
 
 .scrollStamp {
-  
+  display: flex;
 }
 
 #bio {
