@@ -233,7 +233,7 @@ p {
 }
 
 #scrollContainer img {
-  animation: 5s linear infinite normal both scroll-left;
+  animation: 10s linear infinite normal both scroll-left;
 }
 
 @keyframes scroll-left {
