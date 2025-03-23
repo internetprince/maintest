@@ -228,6 +228,8 @@ p {
 
 #scrollContainer {
   display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
 }
 
 #scrollContainer img {
@@ -255,7 +257,6 @@ p {
 }
 
 .stampStyle {
-  margin-right: 1rem;
 }
 
 #bio {
