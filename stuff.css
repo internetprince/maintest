@@ -31,6 +31,11 @@ h4 {
   
 }
 
+code {
+  font-size: 10px;
+  
+}
+
 #descContainer { 
   box-sizing: border-box;
   color: #485158;
