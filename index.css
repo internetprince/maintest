@@ -228,9 +228,6 @@ p {
 
 #scrollContainer {
   display: flex;
-  animation-name: scroll-left;
-  animation-duration: 5s;
-  animation-direction: normal;
 }
 
 #scrollContainer img {
