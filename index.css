@@ -276,6 +276,8 @@ p {
 }
 
 #todoList {
+  box-sizing: border-box;
+  border: 2px solid black;
   text-align: left;
   font-family: monospace;
   margin: 0;
@@ -283,8 +285,12 @@ p {
 }
 
 .todoItem {
+  box-sizing: border-box;
   font-family: monospace;
   margin: 0;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
   border-bottom: 2px solid black;
 }
 
