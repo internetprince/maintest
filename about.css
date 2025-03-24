@@ -61,7 +61,7 @@
   }
   
   #buttons {
-    max-height: 400px;
+    max-height: 30vh;
     overflow: scroll;
   }
 
