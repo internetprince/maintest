@@ -278,7 +278,8 @@ p {
 #todoList {
   box-sizing: border-box;
   border: 2px solid black;
-  text-align: left;
+  text-align: center;
+  align-items: center;
   font-family: monospace;
   margin: 0;
   list-style-type: none;
