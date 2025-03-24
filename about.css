@@ -28,6 +28,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+  max-height: 100px;
+  overflow: scroll;
   }
 
 }
