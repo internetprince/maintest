@@ -282,6 +282,12 @@ p {
   list-style-type: none;
 }
 
+.todoItem {
+  font-family: monospace;
+  margin: 0;
+  border-bottom: 2px solid black;
+}
+
 #updateContainer { 
   box-sizing: border-box;
   color: #485158;
