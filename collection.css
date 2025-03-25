@@ -1,0 +1,33 @@
+@media (orientation: landscape) {
+  
+
+}
+ 
+
+
+@media (orientation: portrait) {
+  .content {
+    grid-template-areas:
+    "";
+    grid-template-rows: min-content;
+    grid-template-columns: min-content;
+    column-gap: .5rem;
+    row-gap: .25rem;
+  }
+}
+
+html {
+      background-image: url("https://files.strawcdn.com/straw/IfVGunscnyXdghlDrHbm.gif");
+      background-repeat: repeat, repeat;
+      background-color: #94C6DE;
+}
+
+#introContainer { 
+  box-sizing: border-box;
+  color: #485158;
+  grid-area: self;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
