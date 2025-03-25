@@ -55,7 +55,7 @@
     max-width: 100%;
     grid-template-areas:
     "interact interact"
-    ". gender";
+    ". bookmark";
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     column-gap: .5rem;
@@ -155,9 +155,9 @@ h3 {
   text-align: center;
 }
 
-#yaygenderContainer {
+#bookmarksContainer {
   box-sizing: border-box;
-  grid-area: gender;
+  grid-area: bookmark;
   align-items: center;
   text-align: center;
 }
