@@ -235,16 +235,16 @@ p {
 }
 
 #scrollContainer img {
-  animation: 30s linear infinite normal both scroll-left;
+  animation: 20s linear infinite normal both scroll-left;
 }
 
 @keyframes scroll-left {
     0% {
-        transform: translateX(500%);
+        transform: translateX(200%);
     }
 
     100% {
-        transform: translateX(-500%);
+        transform: translateX(-700%);
     }
 }
 
