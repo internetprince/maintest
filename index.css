@@ -281,19 +281,7 @@ p {
   text-align: center;
   align-items: center;
   font-family: monospace;
-  margin: 0;
-  list-style-type: none;
-}
-
-.todoItem {
-  box-sizing: border-box;
   width: 100%;
-  font-family: monospace;
-  margin: 0;
-  border-top: 0px;
-  border-left: 0px;
-  border-right: 0px;
-  border-bottom: 2px solid black;
 }
 
 #updateContainer { 
